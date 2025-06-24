@@ -1,3 +1,5 @@
+package romanToNumeral;
+
 public class romanToNumeral {
     public static int romanToInt(String s) {
         int total = 0;
