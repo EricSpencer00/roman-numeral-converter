@@ -15,8 +15,10 @@ public class Main {
             try {
                 int result = converter.romanToInt(line);
                 System.out.println("The integer value is: " + result);
+                System.out.print("Enter a Roman numeral, enter \"exit\" to quit : ");
             } catch (IllegalArgumentException e) {
                 System.out.println("Invalid Roman numeral: " + line);
+                System.out.print("Enter a Roman numeral, enter \"exit\" to quit : ");
             }
         }
     }
